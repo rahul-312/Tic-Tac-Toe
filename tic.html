@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tac.css">
+    <script defer src="toe.js"></script>
+    <title>Tic-Tac-Toe Game</title>
+</head>
+
+<body>
+    <audio id="clickSoundX" src="clickx.wav"></audio>
+    <audio id="clickSoundO" src="clicko.mp3"></audio>
+    <div class="game-container">
+        <div>
+            <h1 class="heading">
+                Tic-Tac-Toe
+            </h1>
+        </div>
+        <div id="board" class="board">
+        </div>
+        <div id="display" class="display">
+            <div>
+
+            <p id="current-player" class="p1">Player X's turn</p>
+        </div>
+
+            <p id="game-result"></p>
+        </div>
+        <button id="reset-btn" onclick="resetGame()" class="reset ">Reset Game</button>
+    </div>
+</body>
+</html>
